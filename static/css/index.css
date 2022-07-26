@@ -47,6 +47,16 @@ main#container {
     margin: 20px auto;
 }
 
+#linktree h1 {
+    font-size: 1.2em;
+    text-align: center;
+}
+
+#linktree h1::before, #linktree h1::after {
+    content: '-';
+    margin: 0 5px;
+}
+
 #linktree a {
     display: flex;
     width: 80%;
