@@ -1,6 +1,10 @@
 @import '/static/css/background.css';
 
 
+:root {
+    --prime-color: #18196b;
+}
+
 body {
     width: 100vw;
     height: 100vh;
@@ -16,6 +20,7 @@ main#container {
     margin: 0 auto;
     position: relative;
     z-index: 99999;
+    color: var(--prime-color);
 }
 
 #info {
@@ -46,12 +51,16 @@ main#container {
     margin: 10px 8px;
 }
 
+#socal-media img:hover {
+    fill: blue;
+}
+
 #linktree {
     margin: 20px auto;
 }
 
 #linktree h1 {
-    font-size: 1.2em;
+    font-size: 1.3em;
     text-align: center;
 }
 
@@ -65,13 +74,14 @@ main#container {
     width: 80%;
     height: 40px;
     margin: 20px auto;
-    border: 2px solid black;
+    border: 2px solid var(--prime-color);
     border-radius: 20px;
     text-align: center;
     color: inherit;
     text-decoration: none;
     align-items: center;
     justify-content: center;
+    font-weight: bold;
 }
 
 #linktree a:hover {
