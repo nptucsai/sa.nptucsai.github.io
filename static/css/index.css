@@ -100,3 +100,7 @@ main#container {
     font-weight: bold;
 }
 
+#footer {
+    width: 100%;
+    min-height: 50px;
+}
