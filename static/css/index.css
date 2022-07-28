@@ -33,6 +33,11 @@ main#container {
 
 #info h1 {
     font-size: 1.6em;
+    padding: 0 10px;
+}
+
+#info h1 span {
+    white-space: nowrap;
 }
 
 #info .logo {
