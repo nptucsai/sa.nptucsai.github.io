@@ -1,4 +1,5 @@
 @import '/static/css/background.css';
+@import '/static/css/alert.css';
 
 
 :root {
@@ -19,7 +20,6 @@ main#container {
     height: 100vh;
     margin: 0 auto;
     position: relative;
-    z-index: 99999;
     color: var(--prime-color);
 }
 
