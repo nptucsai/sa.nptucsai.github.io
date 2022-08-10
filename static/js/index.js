@@ -1,2 +1,2 @@
 
-const closeAlert = () => document.querySelector('#alert').remove();
+// const closeAlert = () => document.querySelector('#alert').remove();
