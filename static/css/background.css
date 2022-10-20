@@ -8,6 +8,6 @@
     top: 0;
     left: 0;
     background: #B2FEFA;
-    background: linear-gradient(to top, #ffbfbd, #feb47b);
-    background: -webkit-linear-gradient(to top,#ffbfbd, #feb47b);
+    background: linear-gradient(to top, #ffbfbd, #ffbd8a);
+    background: -webkit-linear-gradient(to top,#ffbfbd, #ffbd8a);
 }

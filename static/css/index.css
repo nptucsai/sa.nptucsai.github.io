@@ -3,7 +3,7 @@
 
 
 :root {
-    --prime-color: #18196b;
+    --prime-color: #1b5597;
 }
 
 body {
@@ -95,7 +95,7 @@ main#container {
 }
 
 #linktree a:hover {
-    background: #778da9;
+    background: #73A5F5;
     color: #ffffff;
     font-weight: bold;
 }
