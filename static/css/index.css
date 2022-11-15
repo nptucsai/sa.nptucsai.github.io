@@ -30,6 +30,19 @@ main#container {
     text-align: center;
 }
 
+#info a {
+    display: flex;
+    width: 80%;
+    height: 40px;
+    margin: 20px auto;
+    border-radius: 20px;
+    text-align: center;
+    color: inherit;
+    text-decoration: none;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+}
 
 #info h1 {
     font-size: 1.6em;
