@@ -87,7 +87,17 @@ main#container {
     text-align: center;
 }
 
+#linktree h2 {
+    font-size: 1.15em;
+    text-align: center;
+}
+
 #linktree h1::before, #linktree h1::after {
+    content: '-';
+    margin: 0 5px;
+}
+
+#linktree h2::before, #linktree h2::after {
     content: '-';
     margin: 0 5px;
 }
