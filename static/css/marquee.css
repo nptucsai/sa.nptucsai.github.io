@@ -5,30 +5,28 @@
     position: relative;
    }
    
-   .marqee > ul {
+.marqee > ul {
     padding-left: 0;
     display: flex;
     list-style-type: none;
     animation: marqee 15s linear infinite;
     position: absolute;
-   }
-   
-   .marqee > ul > li {
+}
+
+.marqee > ul > li {
     white-space: nowrap;
     margin-right: 2em;
     font-weight: bold;
     color: yellow;
-   }
-   
-   @keyframes marqee {
+}
+
+@keyframes marqee {
     0% {
-     left: 100%;
-     transform: translateX(0%);
+        left: 100%;
+        transform: translateX(0%);
     }
-   
     100% {
-     left: 0;
-     transform: translateX(-100%);
+        left: 0;
+        transform: translateX(-100%);
     }
-   }
-   
+}
